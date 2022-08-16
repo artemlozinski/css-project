@@ -1,0 +1,21 @@
+.alert {
+    font-family: var(--font-family);
+    width: 400px;
+    height: auto;
+    background-color: #bdbdbd;
+    border: solid 2px #7474747b;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.alert-primary {
+    background-color: #e462895f;
+    border: solid 2px #e46289c6;
+    color: var(--color-primary);
+}
+
+.alert-secondary {
+    background-color: #3f48ca63;
+    border: solid 2px #3f48cac1;
+    color: var(--color-secondary);
+}

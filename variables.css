@@ -1,0 +1,22 @@
+:root {
+    --color-light: #fffefe;
+    --color-dark: #000000;
+    --color-primary: #E46289;
+    --color-secondary: #3F48CA;
+
+
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 20px;
+    --font-family: "Arial";
+
+
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 12px;
+    --spacing-4: 16px;
+    --spacing-5: 20px;
+    --spacing-6: 30px;
+}
+
+

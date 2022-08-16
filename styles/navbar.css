@@ -1,0 +1,75 @@
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: var(--color-light);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    height: inherit;
+    justify-content: space-around;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-family: var(--font-family);
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    color: var(--color-dark);
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar-wrap {
+    flex-flow: row nowrap;
+}
+
+.callback {
+    font-family: var(--font-family);
+    margin-left: 30px;
+    color: var(--color-dark);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 2px 4px var(--color-primary);
+    border: solid 2px var(--color-primary);
+}
+
+.callback:hover {
+    background-color: var(--color-light);
+    box-shadow: none;
+    border: solid 2px var(--color-primary);
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--color-dark);
+    transition: all .2s ease-in-out;
+    font-family: var(--font-family);
+}
+
+.navbar-brand:hover {
+    color: var(--color-primary);
+}
+

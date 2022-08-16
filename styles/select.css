@@ -1,0 +1,49 @@
+.form-select {
+    border: solid 2px #979797;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: var(--font-medium);
+    height: calc(var(--font-medium) + 20px);
+    width: 200px;
+}
+
+.form-select-sm {
+    font-size: var(--font-small);
+    height: calc(var(--font-small) + 10px);
+    width: 200px;
+}
+
+.form-select-lg {
+    font-size: var(--font-large);
+    height: calc(var(--font-large) + 30px);
+    width: 200px;
+}
+
+.form-select:focus {
+    outline: none;
+    border: solid 2px #979797;
+    box-shadow: 0 0 0 0.25rem #7474747b;
+    transition: all linear .1s;
+}
+
+.form-select-pr {
+    border-color: #e46289c6;
+}
+
+.form-select-sec {
+    border-color: #3f48cac1;
+}
+
+.form-select-pr:focus {
+    outline: none;
+    border: solid 2px #e46289c6;
+    box-shadow: 0 0 0 0.25rem #e462895f;
+    transition: all linear .1s;
+}
+
+.form-select-sec:focus {
+    outline: none;
+    border: solid 2px #3f48cac1;
+    box-shadow: 0 0 0 0.25rem #3f48ca63;
+    transition: all linear .1s;
+}

@@ -1,0 +1,35 @@
+.h1 {
+    font-size: xx-large;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: x-large;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.h3 {
+    font-size: larger;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.h4 {
+    font-size: large;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.h5 {
+    font-size: medium;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.h6 {
+    font-size: small;
+    font-family: var(--font-family);
+    font-weight: 600;
+}

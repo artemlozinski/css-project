@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  padding-right: calc(var(--spacing-3) * 0.5);
+  padding-left: calc(var(--spacing-3) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 2px;
+}
+
+.container,
+.container-sm {
+
+}
+
+.container,
+.container-lg {
+
+}
